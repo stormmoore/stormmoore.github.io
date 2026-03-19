@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="web_style.css">
+    <title>Stormie Moore Portfolio</title>
 </head>
 
 <body class="background">
@@ -91,22 +92,47 @@
 
     <br>
     <div class="container mt-4">
-    <div class="row text-center">
+        <div class="row text-center">
 
-        <div class="col-md-4">
-            <img src="CSS_Images/first_page.png" class="img-fluid fade-image" alt="image 1, angel character design">
+            <div class="col-md-4">
+                <a href="#image1">
+                    <img src="CSS_Images/first_page.png" class="img-fluid fade-image"
+                        alt="image 1, angel character design">
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="#image2">
+                    <img src="CSS_Images/first_page2.png" class="img-fluid fade-image"
+                        alt="image 2, unreal engine screenshot">
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="#image3">
+                    <img src="CSS_Images/first_page3.png" class="img-fluid fade-image"
+                        alt="image 3, merman character design">
+                </a>
+            </div>
+
         </div>
-
-        <div class="col-md-4">
-            <img src="CSS_Images/first_page2.png" class="img-fluid fade-image" alt="image 2, unreal engine screenshot">
-        </div>
-
-        <div class="col-md-4">
-            <img src="CSS_Images/first_page3.png" class="img-fluid fade-image" alt="image 3, merman character design">
-        </div>
-
     </div>
-</div>
+<!-- making image popup for when you click on them -->
+    <div id="image1" class="popup">
+        <a href="#"><img src="CSS_Images/first_page.png"></a>
+    </div>
+
+    <div id="image2" class="popup">
+        <a href="#"><img src="CSS_Images/first_page2.png"></a>
+    </div>
+
+    <div id="image3" class="popup">
+        <a href="#"><img src="CSS_Images/first_page3.png"></a>
+    </div>
+
+    <footer class="bottom-bar">
+    <p>Created by: Stormie Moore, LZ Studios | 2026</p>
+</footer>
 </body>
 
 </html>
