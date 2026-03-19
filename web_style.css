@@ -1,3 +1,24 @@
 .background {
     background-color: black;
 }
+
+.navbar
+{
+    font-family: garamond, serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.top_h1 {
+    color: white;
+    font-family: 'lucida handwriting', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
