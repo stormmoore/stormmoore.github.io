@@ -1,9 +1,8 @@
 .background {
     background: linear-gradient(to bottom,
-        #13191A 30%,
-        #0A2342 80%,
-        #0A434C 100%
-    );
+            #13191A 30%,
+            #0A2342 80%,
+            #0A434C 100%);
     min-height: 100vh;
 }
 
@@ -54,6 +53,17 @@
 .h2 {
     color: white;
     text-align: center;
+    font-family: garamond, serif;
     font-size: 30px;
     margin-top: 20px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: garamond, serif;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
