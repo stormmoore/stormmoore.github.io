@@ -1,5 +1,10 @@
 .background {
-    background-color: #13191A;
+    background: linear-gradient(to bottom,
+        #13191A 30%,
+        #0A2342 80%,
+        #0A434C 100%
+    );
+    min-height: 100vh;
 }
 
 .navbar {
@@ -27,7 +32,23 @@
     font-family: 'lucida handwriting', cursive;
     text-align: center;
     font-size: 60px;
+    margin-right: 20px;
+}
+
+/* makes this section centered */
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin-top: 50px;
+}
+
+/* changes the width and height, stops it from stretching weirdly */
+.title-section img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
 }
 
 .h2 {
