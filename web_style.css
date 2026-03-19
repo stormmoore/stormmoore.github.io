@@ -1,12 +1,25 @@
 .background {
-    background-color: black;
+    background-color: #13191A;
 }
 
-.navbar
-{
+.navbar {
+    background-color: #948392;
     font-family: garamond, serif;
     font-weight: bold;
     font-size: 23px;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
 }
 
 .top_h1 {
@@ -16,6 +29,7 @@
     font-size: 60px;
     margin-top: 50px;
 }
+
 .h2 {
     color: white;
     text-align: center;
